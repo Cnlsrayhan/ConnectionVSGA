@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/titleItem"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:fontFamily="sans-serif-light"
+        android:maxLines="2"
+        android:text="JUDUL BERITA"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dateItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="15dp"
+        android:text="10/10/10"
+        android:textColor="#ff00"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/contentItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="3"
+        android:text="Jakarta, CNN Indonesia -- Podium ganda putra Indonesia Open 2019 terlihat meriah lantaran Mohammad Ahsan, Hendra Setiawan, dan Marcus Fernaldi Gideon membawa buah hati mereka naik podium. Namun hal tersebut tidak membuat Kevin Sanjaya Sukamuljo menjadi iri"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/darker_gray" />
+
+
+</LinearLayout>
